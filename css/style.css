@@ -1,0 +1,144 @@
+@font-face {
+    font-family:'bell';
+    src: url(/fonts/Quick.ttf);
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    
+}
+header{
+     display: flex;
+   flex-basis: 10%;
+   background-color: rgb(117, 206, 254);
+}
+header img{
+    width: 100px;
+    padding: 10px;
+}
+header h1{
+    padding:25px 50px ;
+    font-family: bell;
+    font-size: 50px;
+   
+}
+i{
+    font-style: normal;
+    color: white;
+    font-size: 70px;
+    text-shadow: 2px 2px 5px black;
+}
+b{
+    letter-spacing: 8px;
+    font-size: 40px;
+    text-shadow: 2px 2px 5px rgb(255, 255, 255);
+}
+nav ul{
+    display: flex;
+    background-color: cadetblue;
+}
+nav ul li:hover{
+   box-shadow: -0px 2px 5px;
+   background-color: cyan;
+   border-radius: 5px;
+   padding-left: 5px;
+   padding-right: 5px;
+}
+ul{
+    justify-content: space-evenly;
+    list-style: none;
+    font-size: 20px;
+    padding: 5px;
+    font-weight: bolder;
+}
+main{
+    display: flex;
+    flex-basis: 65%;
+}
+img{
+    width: 100%;
+}
+p{
+    padding: 10px;
+}
+.one{
+    flex-basis: 25%;
+    padding-top: 3%;
+}
+.one:hover{
+    box-shadow: -0px 2px 5px;
+}
+.two{
+    flex-basis: 25%;
+    padding-top: 3%;
+}
+.two:hover{
+    box-shadow: -0px 2px 5px;
+}
+.two p{
+    padding-top: 20px;
+}
+.three{
+    flex-basis: 25%;
+   
+}
+.three:hover{
+    box-shadow: -0px 2px 5px;
+}
+.four{
+    flex-basis: 25%;
+    
+}
+.four:hover{
+    box-shadow: -0px 2px 5px;
+}
+.read{
+    background-color: rgb(16, 86, 237);
+    border: none;
+    color: white;
+    margin-left: 70%;
+    padding: 5px;
+    border-radius: 3px;
+}
+.read:hover{
+    background-color: rgb(0, 47, 149);
+}
+footer{
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    flex-basis: 5%;
+    background-color: rgb(0, 255, 255,0.6);
+}
+footer b{
+    color: coral;
+}
+
+@media (max-width:480px) {
+       header{
+         flex-direction: column;
+       }
+     
+       header h1{
+        
+        font-size: 20px;
+        text-align: center;
+       }
+       nav ul{
+        flex-direction: column;
+        align-items: center;
+       }
+       main{
+        flex-direction: column;
+       }
+       .BMW{
+        margin: auto;
+       }
+
+    }
